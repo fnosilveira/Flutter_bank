@@ -16,7 +16,6 @@ void main() => runApp(MaterialApp(
 class ListaTransferencias extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Column(children: <Widget>[
       ItemTransferencia(Transferencia(100.0, 1)),
       ItemTransferencia(Transferencia(200.0, 2)),
